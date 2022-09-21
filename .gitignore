@@ -52,7 +52,7 @@ typings/
 .env
 
 # Distribution directory
-dist
+# dist
 
 current-db.json
 
