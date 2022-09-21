@@ -26,7 +26,6 @@
     "url": "https://github.com/flamelink/flamelink/issues"
   },
   "engines": {
-    "node": ">=6 <10",
     "npm": ">=3"
   },
   "keywords": [
@@ -45,12 +44,12 @@
   "license": "ISC",
   "homepage": "https://flamelink.github.io/flamelink/",
   "dependencies": {
-    "browser-image-resizer": "^1.1.4",
-    "compose-then": "^1.0.1",
-    "firebase": "^4.12.1",
-    "lodash": "^4.17.5",
-    "regenerator-runtime": "^0.11.1",
-    "validate.js": "^0.12.0"
+    "browser-image-resizer": "*",
+    "compose-then": "*",
+    "firebase": "8.8.0",
+    "lodash": "*",
+    "regenerator-runtime": "*",
+    "validate.js": "*"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -60,15 +59,15 @@
     "babel-preset-env": "^1.7.0",
     "compression-webpack-plugin": "^1.1.11",
     "copy-webpack-plugin": "^4.5.2",
-    "docsify-cli": "^4.2.1",
-    "eslint": "^4.6.1",
-    "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-config-prettier": "^2.4.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-prettier": "^2.2.0",
-    "jest": "^21.0.2",
-    "prettier": "^1.7.0",
-    "rimraf": "^2.6.2",
+    "docsify-cli": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-prettier": "*",
+    "jest": "*",
+    "prettier": "*",
+    "rimraf": "*",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.16.5",
     "webpack-bundle-analyzer": "^3.3.2",
